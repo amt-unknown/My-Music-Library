@@ -4,8 +4,8 @@ function SearchBar(props) {
     let [searchTerm, setSearchTerm] = useState('')
 
     return(
-        <form>
-            <input type="text" placeholder="Search here" />
+        <form onSubmit={(e) => props.handleSearch(e, searchTerm)}>
+            <input type="text" placeholder="Search here" onChange={(e) => setSearchTerm(e.target.value)}/>
             <input type="submit"/>
         </form>
     )
