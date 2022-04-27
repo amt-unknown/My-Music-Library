@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   let [search, setSearch] = useState('')
-  let [message, setMessage] = useState('Search for Music!')
+  let [message, setMessage] = useState('Search for Music! THIS IS A TEST')
   let [data, setData] = useState([])
 
   useEffect(() => {
