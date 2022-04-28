@@ -8,8 +8,8 @@ function Gallery(props){
     })
 
     return (
-        <div style={{'text-align': 'center'}}>
-            <div style={{'display': 'flex', 'flex-flow':'wrap row', 'justify-content': 'center'}}>
+        <div style={{'textAlign': 'center'}}>
+            <div style={{'display': 'flex', 'flexFlow':'wrap row', 'justifyContent': 'center'}}>
                 {display}
             </div>
 
