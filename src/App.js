@@ -36,11 +36,11 @@ function App() {
     
   return (
     <div className="App">
-      {message}
       <Router>
         <Routes>
           <Route path="/" element={
             <Fragment>
+              {message}
               <SearchBar handleSearch={handleSearch}/>
               <Gallery data={data}/>
             </Fragment>
